@@ -1,7 +1,16 @@
-function multi(a, b) {
-    return a * b;
+/*
+Myli-nemyli???
+
+1 - true
+2 - false
+3 - true
+4 - false
+...
+*/
+
+function love(leafCount) {
+    return leafCount % 2 === 0 ? false : true;
 }
 
-console.log(multi(4, 5), '->', 20);
-console.log(multi(-7, 2), '->', -14);
-console.log(multi(3.5, 3), '->', 10.5);
+console.log(love(7), '->', true);
+console.log(love(70), '->', false);
