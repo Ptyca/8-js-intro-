@@ -215,4 +215,14 @@ function sumF (pridejimai) {
 }
 console.log(sumF(-70, 30));
 
+console.log("___________________________________");
 
+const raides= ['a','b','c','d','e','f'];
+console.log(raides);
+
+const dr = raides.reverse().join('');
+console.log(dr);
+
+const seka = [10, 12, 14, 15, 20];
+const rev = seka.reverse().join();
+console.log(rev);
